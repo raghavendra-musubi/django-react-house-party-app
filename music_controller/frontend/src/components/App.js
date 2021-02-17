@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import HomePage from './HomePage'
+import RoomJoin from './RoomJoin'
+import CreateRoom from './CreateRoom'
 
 export default class App extends Component {
     constructor(props) {
@@ -10,7 +13,9 @@ export default class App extends Component {
     }
     
     render() {
-        return <h1> Testing React Code </h1>
+        return <div>
+            <HomePage />
+        </div>
     }
 }
 
